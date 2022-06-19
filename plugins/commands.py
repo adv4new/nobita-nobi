@@ -74,7 +74,7 @@ async def showinfo(client, message):
                 username = user.username
                 dcid = user.dc_id
             except:
-                name = False
+                name = True
                 pass
 
         if not name:
